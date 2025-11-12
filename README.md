@@ -371,7 +371,9 @@ file_hasher.py
 
 ## To run: 
 python file_hasher.py
+
 python file_hasher.py save
+
 python file_hasher.py compare
 
 ## Description: 

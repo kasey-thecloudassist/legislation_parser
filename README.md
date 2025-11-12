@@ -350,3 +350,29 @@ Once you've experimented with chunking strategies and chosen one that fits your 
 ## License
 
 This project is provided as-is for educational and research purposes.
+
+
+# Employment Law Scraper
+
+## File: 
+legislation_scraper.py
+
+## To run: 
+python legislation_scraper.py
+
+## Description: 
+Save the urls for the xml files for all of the uk legislations under the employment law theme.
+
+
+# File Hasher
+
+## File: 
+file_hasher.py
+
+## To run: 
+python file_hasher.py
+python file_hasher.py save
+python file_hasher.py compare
+
+## Description: 
+Generates SHA256 hashes for the hard coded file (useful for comparison checks). Has three ways to run. No params will just output the hash of the file. Save will save the files hash locally. Compare will compare the saved hash with the current file.
